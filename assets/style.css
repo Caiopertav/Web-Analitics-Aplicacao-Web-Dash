@@ -1,0 +1,196 @@
+/* lembrar #id . é classe e : apos classe é atributo (como hover ou focus)*/
+
+
+/* corpo interno do dropdown */
+/* focus within altera cor quando clica/hover quando passa mouse */
+#dropequipes .Select-control{
+    background-color: rgb(255, 255, 255) !important;
+    color:rgb(0, 0, 0);
+    border-color: #b83a2f;
+} 
+#dropequipes .Select-control:hover{
+    background-color: rgb(255, 255, 255) !important;
+    color:rgb(0, 0, 0);
+    border-color: #ea4335;
+    border-width:4px ;
+}
+#dropequipes .Select-control:focus-within{
+    background-color: rgb(255, 255, 255) !important;
+    color:rgb(0, 0, 0);
+    border-color: #ea4335;
+    border-width:2.5px ;
+}  
+#droppropaganda .Select-control{
+    background-color: rgb(255, 255, 255) !important;
+    color:rgb(0, 0, 0);
+    border-color: #3562aa;
+} 
+#droppropaganda .Select-control:hover{
+    background-color: rgb(255, 255, 255) !important;
+    color:rgb(0, 0, 0);
+    border-color: #4285f4;
+    border-width:4px ;
+}
+#droppropaganda .Select-control:focus-within{
+    background-color: rgb(255, 255, 255) !important;
+    color:rgb(0, 0, 0);
+    border-color: #4285f4;
+    border-width:2.5px ;
+}  
+#dropconsultor .Select-control{
+    background-color: rgb(255, 255, 255) !important;
+    color:rgb(0, 0, 0);
+    border-color: #af8a1c;
+} 
+#dropconsultor .Select-control:hover{
+    background-color: rgb(255, 255, 255) !important;
+    color:rgb(0, 0, 0);
+    border-color: #fbbc05;
+    border-width:4px ;
+}
+#dropconsultor .Select-control:focus-within{
+    background-color: rgb(255, 255, 255) !important;
+    color:rgb(0, 0, 0);
+    border-color: #fbbc05;
+    border-width:2.5px ;
+}  
+
+/* style do valor fixo antes do preenchimento*/
+.Select-placeholder {
+    color: rgb(0, 0, 0)
+}
+
+/*ALTERAÇÔES DO MENU*/
+
+/* corpo do menu de opções sem alterar item abaixo que altera item a item*/
+.Select-menu-outer {
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 2, 2);
+}  
+/* Opções virtualizadas do dropdown sem passar o mouse*/
+/*.VirtualizedSelectOption{background-color: #ffffff;
+    color: rgb(255, 255, 255);}*/
+
+/* Opções virtualizadas do dropdown ao passar o mouse obs: ordem importa mouse passar dps da cor fixa*/
+#dropequipes .VirtualizedSelectFocusedOption{background-color: #ea4335;
+    color: rgb(238, 235, 230);
+    font-weight: bold;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+#droppropaganda .VirtualizedSelectFocusedOption{background-color: #4285f4;
+    color: rgb(238, 235, 230);
+    font-weight: bold;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+#dropconsultor .VirtualizedSelectFocusedOption{background-color: #fbbc05;
+    color: rgb(238, 235, 230);
+    font-weight: bold;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+/* CORPO TARJAS JÁ SELECIONADAS */
+
+/* ALtera texto, da tarja. color=cor texto e back cor de fundo SEM MOUSE */
+.Select-value-label{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}    
+/* Back cor entorno do X e color cor do X SEM MOUSE*/
+#dropequipes .Select-value-icon{
+    background-color: #b33e33;
+    color: rgb(255, 255, 255);
+}
+/*border=borda do item e back preenchimento do X COM MOUSE*/
+#dropequipes .Select-value-icon:hover{
+    border-color: #ea4335;
+    background-color: #ea4335;
+    color: #ffffff;
+}
+/*border=borda do item e back preenchimento da Label COM MOUSE*/
+#dropequipes .Select-value-label:hover{
+    color: rgb(255, 255, 255);
+    background-color:#ea4335;
+    font-weight:bold;
+}
+
+#droppropaganda .Select-value-icon{
+    background-color: #3866af;
+    color: rgb(255, 255, 255);
+}
+
+#droppropaganda .Select-value-icon:hover{
+    border-color: #4285f4;
+    background-color: #4285f4;
+    color: #ffffff;
+}
+#droppropaganda .Select-value-label:hover{
+    color: rgb(255, 255, 255);
+    background-color:#4285f4;
+    font-weight: bold;
+}  
+#dropconsultor .Select-value-icon{
+    background-color: #af8a1c;
+    color: rgb(255, 255, 255);
+}
+#dropconsultor .Select-value-icon:hover{
+    border-color: #fbbc05;
+    background-color: #fbbc05;
+    color:#ffffff
+}
+#dropconsultor .Select-value-label:hover{
+    color: rgb(255, 255, 255);
+    background-color:#fbbc05;
+    font-weight: bold;
+}  
+
+
+
+/*classe da área do grafico (caso desse errado -border-radius e overflow: hidden*/
+.indicator {
+    box-shadow: 4px 5px 5px 2px #B0B2AE
+}
+.grafico .main-svg{
+    border-radius:15px;
+    box-shadow: 4px 5px 5px 2px #B0B2AE
+}
+/*Dropdown div style*/
+#dropdowndiv{
+    box-shadow: 4px 5px 5px 2px #B0B2AE
+}
+/*cabeçario div style*/
+#cabeçariodiv{
+    box-shadow: 4px 5px 5px 2px #B0B2AE
+}
+/*Titulo da pagina*/
+h1{
+    font-size:32px;
+}
+/*Indicator text configurações gerais*/
+.indicator{
+    text-align: center;
+    font-family:Franklin Gothic Medium;
+}
+/*Titulo*/
+.indicator h1 {
+    
+    font-size: 24px;
+    margin: 10px 0px 3px 0px;
+}
+/*subTitulo*/
+.indicator h2{
+    font-size: 16px;
+    margin: 0px 0px 6px 0px;
+}
+/*valor*/
+.indicator h3{
+    font-size: 48px;
+    margin: 0px 0px 6px 0px;
+    font-weight: bold;
+}
+#img{
+    height: 68px;
+}
+
