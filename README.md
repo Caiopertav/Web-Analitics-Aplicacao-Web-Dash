@@ -27,19 +27,30 @@
 <div  align="center"> 
   <div style="display: inline_block"><br>
     <h1 align="center">Bibliotecas (Documentação no link!)</h1>
-    <a href="https://plotly.com/python/"><img align="center" height="60" width="160" alt="Plotly-icon" src="IMGtoReadme/Plotly-logo.png">
+    <a href="https://plotly.com/python/"><img align="center" height="60" width="180" alt="Plotly-icon" src="IMGtoReadme/Plotly-logo.png">
     <a href="https://dash.plotly.com/"><img align="center" height="60" width="160" alt="Dash-icon" src="IMGtoReadme/Dash-logo.png">
       
 
 <div  align="center"> 
   <div style="display: inline_block"><br>
-    <h2 align="center">Album de Possibilidades</h2>
- 
+    <h2 align="center">Album de Funcionalidade</h2>
+    <img align="center" height="200" width="400" alt="Album1" src="IMGtoReadme/DesignApp1.png">
+    <img align="center" margin="0px 20px 0px" height="200" width="400" alt="Album2" src="IMGtoReadme/DesignApp2.png">
    </div>
+  <br><br>
+  <p align="justify">   O design, posicionamentos, cores e até dados é maleavel de acordo com os interesses. Existem possibilidades de inserir objetos interativos como os Dropdowns ou slices, a fim de filtrar os dados em buscas. Assim como a seguir:
+  </p>     
+ <br><br>
+<div  align="center"> 
+  <div style="display: inline_block"><br>
+    <img align="center" height="180" width="400" alt="Album1" src="IMGtoReadme/DesignApp3.png">  
+    <img align="center"  height="180" width="400" alt="Album2" src="IMGtoReadme/DesignApp4.png"> 
+    <br><br>
+    <img align="center"  height="180" width="400" alt="Album2" src="IMGtoReadme/DesignApp5.png">
+    <img align="center"  height="180" width="400" alt="Album2" src="IMGtoReadme/DesignApp6.png">
+   </div>  
       
-    
       
       
       
-      
-   </div>
+
