@@ -38,7 +38,7 @@
     <img align="center" margin="0px 20px 0px" height="200" width="400" alt="Album2" src="IMGtoReadme/DesignApp2.png">
    </div>
   <br><br>
-  <p align="justify">   O design, posicionamentos, cores e até dados é maleavel de acordo com os interesses. Existem possibilidades de inserir objetos interativos como os Dropdowns ou slices, a fim de filtrar os dados em buscas. Assim como a seguir:
+  <p align="justify">   O design, posicionamentos, cores e até dados é maleavel de acordo com os interesses. A ideia é que seja interativo e atraente visualmente sem que haja as barreiras de um programa convencional. Existem possibilidades de inserir objetos de seccionamento dos dados como os Dropdowns ou slices, a fim de filtrar os dados em buscas. Assim como a seguir:
   </p>     
  <br><br>
 <div  align="center"> 
